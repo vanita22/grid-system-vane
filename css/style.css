@@ -1,0 +1,141 @@
+body{
+	font-family: 'Handwriting';
+}
+.caja{
+	background-color: #9B0022;
+}
+
+header{
+	text-align: center;
+}
+
+.back{
+	background-image: url(http://lorempixel.com/1024/600/);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 50vh;
+}
+
+.back .container{
+	background-color: rgba(255,255,255, 0.7);
+	position: relative;
+	height: 15vh;
+	top: 100px;
+}
+
+.texto{
+	position: absolute;
+	top: 3%;
+	left: 30%;
+	font-size: 30px;
+	font-style: italic;
+}
+
+button{
+	background-color: #FAC70C;
+	height: 30px;
+	width: 80px;
+	border-radius: 5px;
+}
+
+p{
+	text-align: justify;
+	font-family: 'Handwriting';
+}
+
+/*global*/
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.row:before, .row:after{
+	content: "";
+	display: table;
+}
+
+.row:after{
+	clear: both;
+}
+
+[class*="col-"]{
+	 min-height: 7px;
+	 float: left;
+	 padding: 12px;
+}
+
+.col-1{
+	/*(1/12)*100*/
+	width: 8.333333%;
+}
+
+.col-2{
+	/*(2/12)*100*/
+	width: 16.666667%;
+}
+
+.col-3{
+	/*(3/12)*100*/
+	width: 25%;
+	display: inline-block;
+}
+
+.col-4{
+	/*(4/12)*100*/
+	width: 33.333333%;
+}
+
+.col-5{
+	/*(5/12)*100*/
+	width: 41.666667%;
+}
+
+.col-6{
+	/*(6/12)*100*/
+	width: 50%;
+}
+
+.col-7{
+	/*(7/12)*100*/
+	width: 58.333333%;
+}
+
+.col-8{
+	/*(8/12)*100*/
+	width: 66.666667%;
+}
+
+.col-9{
+	/*(9/12)*100*/
+	width: 75%;
+}
+
+.col-10{
+	/*(10/12)*100*/
+	width: 83.333333%;
+}
+
+.col-11{
+	/*(11/12)*100*/
+	width: 91.666667%;
+}
+
+.col-12{
+	/*(12/12)*100*/
+	width: 100%;
+}
+
+.img-responsive{
+	max-width: 100%;
+	width: 100%;
+}
+
